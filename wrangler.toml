@@ -7,12 +7,12 @@ port = 8787
 local_protocol = "http"
 
 [env.vars]
-CUSTOM_DOMAIN = "sunus.site"
+CUSTOM_DOMAIN = "s.site"
 
 [env.dev.vars]
 MODE = "debug"
 TARGET_UPSTREAM = "https://registry-1.docker.io"
-CUSTOM_DOMAIN = "sunus.site"
+CUSTOM_DOMAIN = "s.site"
 
 [env.production]
 name = "cloudflare-docker-proxy"
